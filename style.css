@@ -1,0 +1,135 @@
+*{
+	scroll-behavior: smooth;
+	scroll-behavior: auto;
+}
+body {
+	text: color(white);
+	display: flex;
+	animation-delay: 69ms;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100vh;
+	overflow: hidden;
+	justify-content: center;
+	background-image: url(2022_11_05_22_37_IMG_0878.JPG);
+	width: auto;
+	top: 59mm;
+	overflow: scroll;
+	
+}
+
+.one {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+}
+
+.img1 {
+	left: 0;
+	top: 20%;
+	position: absolute;
+	background-image: url(2022_07_11_16_49_IMG_1384.JPG);
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+	box-shadow: 0 5px 15px rgb(6, 143, 167);
+}
+
+.img2 {
+	position: absolute;
+	right: 0;
+	top: 20%;
+	background: url(2022_09_14_13_03_DFDA5CFB-FC98-420D-8653-DA122218C18B.JPG);
+	background-size: cover;
+	width: 300px;
+	height: 400px;
+	box-shadow: 0 5px 15px rgb(11, 137, 137);
+}
+
+h1 {
+	text-shadow: 0 5px 15px #28f22b;
+	text-shadow: 0 15px 2c5px #2bf228;
+	color: white;
+}
+
+.know,
+.main2 {
+	color: aliceblue;
+	position: absolute;
+	font-size: 30px;
+	top: 57%;
+	left: 50px;
+	
+}
+.main2{
+	top: 80%;
+	left:10%;
+	color:gold;
+	padding: 20px;
+	border-radius: 25px;
+	border: 1px solid rgb(0, 0, 0);
+	font-style: italic;
+}
+.please_inter_the_text{
+	font-size: 20px ;
+	font-weight: bold;
+	font-style: italic;
+	left: 10%;
+
+} 
+.wife {
+	color: rgb(111, 255, 8);
+	position: absolute;
+	top: 50%;
+	left: 700px;
+	font-size: 40px;
+	text-shadow: 0 5px 15px #ff0055;
+	text-shadow: 0 15px 2c5px #000000;
+	opacity: 0;
+}
+
+.tell {
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 70px;
+	font-size: 30px;
+
+}
+
+.tell:hover+.wife {
+	animation: show 2s ease;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.main1 {
+	margin: 50%;
+	width: 500px;
+}
+
+.UNIK1 {
+	color: #28f22b;
+}
+
+.p2{
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-between;
+	margin-top: 1000PX;
+	width: 200px;
+	height: 200px;
+}
+.please_inter_the_text{
+	left: 10%;
+}
